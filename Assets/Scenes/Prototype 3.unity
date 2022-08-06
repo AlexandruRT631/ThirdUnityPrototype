@@ -573,7 +573,11 @@ MonoBehaviour:
   jumpForce: 20
   gravityModifier: 5
   isOnGround: 1
+  hasSecondJump: 1
   gameOver: 0
+  dash: 0
+  dashMultiplier: 2
+  startGame: 0
 --- !u!4 &659427861 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400066, guid: fe32ce89f99911a478ea9e6736294382, type: 3}
@@ -766,7 +770,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 307c48c2238d0174f98b0ab38a4666e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 197519876458059247, guid: df4c5221970e5ed42bd27e06c16f379d, type: 3}
+  obstaclePrefab:
+  - {fileID: 197519876458059247, guid: df4c5221970e5ed42bd27e06c16f379d, type: 3}
+  - {fileID: 150522192589395915, guid: b8dc6e12483366148b59722b79de5c64, type: 3}
+  - {fileID: 5287115032367986630, guid: 6c929e9d7059ff044ab667a74e205bbb, type: 3}
 --- !u!4 &826391033
 Transform:
   m_ObjectHideFlags: 0
